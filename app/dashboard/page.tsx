@@ -541,7 +541,18 @@ export default function Dashboard() {
                 </div>
                 <div className="mt-8 flex justify-end gap-4">
                   <button
-                    onClick={() => setNewEmployee({ name: "", role: "", department: "", location: "", email: "", status: "Active" })}
+                    onClick={() => setNewEmployee({ 
+                      name: "", 
+                      role: "", 
+                      department: "", 
+                      location: "", 
+                      email: "", 
+                      status: "Active",
+                      phone: "",
+                      joiningDate: "",
+                      salary: "",
+                      bloodGroup: ""
+                    })}
                     className="px-6 py-2 rounded-xl bg-gray-100 dark:bg-white/5 text-gray-600 dark:text-gray-300 font-medium hover:bg-gray-200 dark:hover:bg-white/10 transition-colors cursor-pointer"
                   >
                     Reset
